@@ -1,0 +1,39 @@
+<!-- layout.hbs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Layout HBS Examples</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/stylesheets/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link link-color" href="/">Home
+          <span class="sr-only">(current)</span>
+        </a>
+        <a class="nav-item nav-link link-color" href="/beers">Beers</a>
+        <a class="nav-item nav-link link-color" href="/random-beers">Random Beer</a>
+      </div>
+    </div>
+  </nav>
+
+  {{{ body }}}
+
+
+<footer>
+  <div id="footer" class="footer-copyright py-3 text-left bg-dark link-color">
+    <p id="footer-text">Developed by Ryan Martin at Ironhack Miami :)</p>
+  </div>
+</footer>
+
+</body>
+</html>
